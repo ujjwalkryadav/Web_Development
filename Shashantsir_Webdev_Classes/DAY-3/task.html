@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <h2>Employee Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Full Name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+        <br><br>
+
+        <label for="empid">Employee ID:</label>
+        <input type="text" id="empid" name="empid" placeholder="Enter Employee ID" required>
+        <br><br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="HR">HR</option>
+            <option value="IT">IT</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Operations">Operations</option>
+        </select>
+        <br><br>
+
+        <label>Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <br>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="joining">Date of Joining:</label>
+        <input type="date" id="joining" name="joining" required>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" cols="30"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to company policies</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+
+        <!-- 
+        Points Covered:
+        1. Form structure
+        2. Input types (text, email, tel, date)
+        3. Select dropdown
+        4. Radio buttons
+        5. Textarea
+        6. Checkbox
+        7. Submit button
+        8. Required validation
+        9. Proper label linking (for & id)
+        -->
+
+    </form>
+
+</body>
+</html>
