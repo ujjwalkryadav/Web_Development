@@ -1,0 +1,23 @@
+/* Background Color */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+
+  /* Background Image */
+  background-image: url("./Images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Content Styling */
+.content {
+  text-align: center;
+  padding: 200px 100px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 100px auto;
+  width: 60%;
+  border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 - Flex Navbar</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+            background-color: gainsboro;
+        }
+
+        nav img {
+            height: 40px;
+            width: 50px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav div {
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            background: orangered;
+            color: whitesmoke;
+            border: none;
+            height: 35px;
+            width: 70px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: black;
+        }
+
+        .external-link {
+            display: inline-block;
+            margin: 30px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">
+            <img src="./Images/image1.png" alt="logo">
+        </a>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./contact.html" target="_blank">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+
+        <div>
+            <button>Login</button>
+            <button>Logout</button>
+        </div>
+    </nav>
+
+    <a href="https://docs.google.com" target="_blank" class="external-link">
+        Go to Home Page
+    </a>
+
+    <!--
+  Points Covered:
+  1. display: flex (applied on parent)
+  2. justify-content: space-between
+  3. align-items: center
+  4. gap property
+  5. Hover effect
+  6. target="_blank"
+  -->
+
+</body>
+
+</html>
