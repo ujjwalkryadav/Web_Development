@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(243, 234, 223);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 10%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.herotext h1 {
+    font-size: 60px;
+    margin-top: 50%;
+}
+
+.herobtn {
+    width: 150px;
+    height: 55px;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+
+}
+
