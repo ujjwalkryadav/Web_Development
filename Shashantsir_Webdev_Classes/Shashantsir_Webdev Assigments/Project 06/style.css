@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(61, 35, 35);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+ul li {
+    list-style: none;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+
+
+}
+
+.menu {
+    padding-left: 140px;
+    margin-top: 2px;
+}
+
+.navbtn {
+    height: 40px;
+    width: 120px;
+    margin-right: 15%;
+    margin-top: 13px;
+    color: #9e8e36;
+    border-radius: 5px;
+    border-color: #9e8e36;
+    background: none;
+}
+
+.logo {
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 13px;
+}
+
+
+/* hero section css */
+
+
+
+.herosec {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.hero {
+    display: flex;
+    color: aliceblue;
+}
+
+.hero h1 {
+    font-size: 60px;
+
+}
+
+
+.hero p {
+    padding-left: 100px;
+    padding-top: 32px;
+    font-size: 20px;
+}
+
+
+.banner {
+    height: 470px;
+    width: 990px;
+}
