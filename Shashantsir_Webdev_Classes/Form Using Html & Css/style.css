@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(222, 239, 242);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(3, 242, 238);
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 7px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30px;
+    gap: -2px;
+}
+
+
+.gender {
+    display: flex;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+
+
+
+button {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -65px;
+    background-color: rgb(0, 225, 255);
+    color: black;
+    border-radius: 10px;
+
+}
+
+form button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid rgb(1, 183, 183);
+    border-radius: 5px;
+}
+
+.checkboox {
+    width: 16px;
+
+}
+
+.formbtm label {
+    font-size: 16px;
+    position: relative;
+
+}
